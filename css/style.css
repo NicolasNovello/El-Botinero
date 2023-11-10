@@ -1,0 +1,237 @@
+/*cuerpo del html*/
+body {
+  background-color: rgb(197, 220, 216);
+}
+
+header {
+  position: sticky;
+  top: 0%;
+}
+
+@media (max-width: 500px) {
+  header {
+    position: relative;
+  }
+}
+
+footer {
+  background-color: rgb(20, 64, 58);
+}
+/*header*/
+h1 {
+  color: white;
+}
+
+.navegacion {
+  background-color: rgb(20, 36, 35);
+  border-top: solid 20px rgb(20, 64, 58);
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.navMenu a:hover {
+  background-color: rgb(20, 64, 58);
+  color: white;
+  border-radius: 5px;
+}
+
+/*titulos secundarios*/
+.titulosSecundarios {
+  color: rgb(20, 36, 35);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+/*imagenes*/
+.imagenes {
+  width: auto;
+  height: 300px;
+  border: solid;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.botonComprar {
+  border-radius: 10px;
+  background-color: rgb(197, 220, 216);
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.botonComprar:hover {
+  background-color: rgb(20, 64, 58);
+  border: black;
+  border-radius: 10px;
+  color: white;
+}
+
+/*catalogo*/
+.catalogoLogo {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 124px;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos {
+  width: 400px;
+  height: 250px;
+  border: solid black;
+}
+
+.cajas {
+  text-align: center;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  background-color: rgb(20, 36, 35);
+}
+
+.cajas h3 {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/*nosotros*/
+
+.nosotros {
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(20, 36, 35);
+  color: rgb(255, 255, 255);
+}
+
+.nosotros h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.nosotros article {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mapa {
+  width: 100%;
+  height: 500px;
+}
+
+/*formularios*/
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formUno {
+  width: 400px;
+  height: 100%;
+  border: solid;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.formDos {
+  width: 400px;
+  height: 100%;
+  border: solid;
+  padding: 20px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.datos {
+  font-size: 23px;
+}
+
+.cuadraditos {
+  height: 30px;
+  width: 300px;
+}
+
+.acciones {
+  display: block;
+  height: 30px;
+  width: 300px;
+  margin-top: 8px;
+}
+
+.creacionUsuario {
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.logoWpp {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .logoWpp {
+    display: none;
+  }
+}
+
+footer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  background-color: rgb(20, 64, 58);
+  font-size: 20px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer ul {
+    margin: 10px;
+  }
+}
