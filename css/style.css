@@ -80,19 +80,26 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
-.logos {
-  width: 400px;
-  height: 250px;
-  border: solid black;
-}
-
 @media (max-width: 850px) {
   .catalogoLogo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+  }
+}
+.logos {
+  width: 400px;
+  height: 250px;
+  border: solid black;
+}
+
+@media (max-width: 500px) {
+  .logos {
+    width: 350px;
+    height: 200px;
+    border: solid black;
     margin: 10px;
   }
 }
