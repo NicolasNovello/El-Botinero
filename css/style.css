@@ -87,6 +87,12 @@ h1 {
   border: solid black;
 }
 
+@media (max-width: 850px) {
+  .catalogoLogo {
+    display: inline-block;
+  }
+}
+
 .cajas {
   text-align: center;
   border: solid;
