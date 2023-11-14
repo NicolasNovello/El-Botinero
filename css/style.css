@@ -89,9 +89,11 @@ h1 {
 
 @media (max-width: 850px) {
   .catalogoLogo {
-    display: inline-block;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 10px;
   }
 }
 
