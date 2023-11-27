@@ -1,0 +1,48 @@
+/*header*/
+
+@media (max-width: 500px) {
+  header {
+    position: relative;
+  }
+}
+
+/*catalogo*/
+
+@media (max-width: 850px) {
+  .catalogoLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logos {
+    width: 350px;
+    height: 200px;
+    border: solid black;
+    margin: 10px;
+  }
+}
+
+/*logo wpp*/
+
+@media (max-width: 500px) {
+  .logoWpp {
+    display: none;
+  }
+}
+
+/*footer*/
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      margin: 10px;
+    }
+  }
+}

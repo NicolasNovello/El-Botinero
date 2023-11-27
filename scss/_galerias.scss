@@ -1,0 +1,36 @@
+.imagenes {
+  width: auto;
+  height: 300px;
+  border: solid;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.botonComprar {
+  border-radius: 10px;
+  background-color: rgb(197, 220, 216);
+  padding: 5px;
+  margin-bottom: 5px;
+
+  &:hover {
+    background-color: rgb(20, 64, 58);
+    border: black;
+    border-radius: 10px;
+    color: white;
+  }
+}
+
+.cajas {
+  text-align: center;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  background-color: rgb(20, 36, 35);
+
+  h3 {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}

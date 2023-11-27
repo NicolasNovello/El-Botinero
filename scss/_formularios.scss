@@ -1,0 +1,54 @@
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formUno {
+  width: 400px;
+  height: 100%;
+  border: solid;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.formDos {
+  width: 400px;
+  height: 100%;
+  border: solid;
+  padding: 20px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.datos {
+  font-size: 23px;
+}
+
+.cuadraditos {
+  height: 30px;
+  width: 300px;
+}
+
+.acciones {
+  display: block;
+  height: 30px;
+  width: 300px;
+  margin-top: 8px;
+}
+
+.creacionUsuario {
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
