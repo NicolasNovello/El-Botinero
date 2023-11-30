@@ -38,11 +38,15 @@
 /*footer*/
 @media (max-width: 500px) {
   footer {
-    display: $propiedad-flex;
+    display: flex;
     flex-direction: column;
 
+    .finalPagina {
+      margin-bottom: 20px;
+    }
+
     ul {
-      margin: 10px;
+      text-align: left;
     }
   }
 }
