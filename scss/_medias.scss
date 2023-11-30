@@ -10,7 +10,7 @@
 
 @media (max-width: 850px) {
   .catalogoLogo {
-    display: flex;
+    display: $propiedad-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
 /*footer*/
 @media (max-width: 500px) {
   footer {
-    display: flex;
+    display: $propiedad-flex;
     flex-direction: column;
 
     ul {

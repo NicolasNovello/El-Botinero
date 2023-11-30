@@ -8,8 +8,8 @@ header {
 }
 
 .navegacion {
-  background-color: rgb(20, 36, 35);
-  border-top: solid 20px rgb(20, 64, 58);
+  background-color: $color-secundario;
+  border-top: solid 20px $color-principal;
 }
 
 .navMenu a {
@@ -19,7 +19,7 @@ header {
   padding: 0;
 
   &:hover {
-    background-color: rgb(20, 64, 58);
+    background-color: $color-principal;
     color: white;
     border-radius: 5px;
   }

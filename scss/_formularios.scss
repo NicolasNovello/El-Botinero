@@ -1,33 +1,17 @@
 .formulario {
-  display: flex;
+  display: $propiedad-flex;
   align-items: center;
   justify-content: center;
 }
 
 .formUno {
-  width: 400px;
-  height: 100%;
-  border: solid;
-  padding: 20px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
   margin-bottom: 25px;
+  @include formulario;
 }
 
 .formDos {
-  width: 400px;
-  height: 100%;
-  border: solid;
-  padding: 20px;
-  border-radius: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
   margin-bottom: 45px;
+  @include formulario;
 }
 
 .datos {

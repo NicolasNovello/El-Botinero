@@ -1,0 +1,11 @@
+@mixin formulario {
+  width: 400px;
+  height: 100%;
+  border: solid;
+  padding: 20px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
