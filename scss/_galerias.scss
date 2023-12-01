@@ -4,6 +4,12 @@
   border: solid;
   border-radius: 5px;
   margin-top: 5px;
+  transition: all 1s;
+
+  &:hover {
+    width: auto;
+    height: 350px;
+  }
 }
 
 .botonComprar {
@@ -11,12 +17,14 @@
   background-color: rgb(197, 220, 216);
   padding: 5px;
   margin-bottom: 5px;
+  transition: all 1s;
 
   &:hover {
     background-color: $color-principal;
     border: black;
     border-radius: 10px;
     color: white;
+    padding: 15px;
   }
 }
 

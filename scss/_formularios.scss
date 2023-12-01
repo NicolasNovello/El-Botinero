@@ -5,12 +5,12 @@
 }
 
 .formUno {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   @include formulario;
 }
 
 .formDos {
-  margin-bottom: 45px;
+  margin-bottom: 80px;
   @include formulario;
 }
 
@@ -32,8 +32,8 @@
 
 .creacionUsuario {
   text-align: center;
-  margin-top: -25px;
-  margin-bottom: 25px;
+  margin-top: -50px;
+  margin-bottom: 45px;
   font-size: 20px;
 }
 
