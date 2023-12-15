@@ -16,6 +16,7 @@
     />
     <link rel="icon" href="../images/icon.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -62,7 +63,7 @@
         </h2>
       </div>
       <div class="catalogoLogo">
-        <div>
+        <div data-aos="fade-right">
           <a href="adidas.html"
             ><img
               class="logos"
@@ -70,7 +71,7 @@
               alt="Logo adidas"
           /></a>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <a href="nike.html"
             ><img class="logos" src="../images/logo-nike.jpg" alt="logo nike"
           /></a>
@@ -112,5 +113,9 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
