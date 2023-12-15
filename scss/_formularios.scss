@@ -1,18 +1,26 @@
+/*propiedades formulario*/
+
 .formulario {
   display: $propiedad-flex;
   align-items: center;
   justify-content: center;
 }
 
+/*primer formulario de la pagina*/
+
 .formUno {
   margin-bottom: 35px;
   @include formulario;
 }
 
+/*segundo formulario de la pagina*/
+
 .formDos {
   margin-bottom: 80px;
   @include formulario;
 }
+
+/*datos formulario*/
 
 .datos {
   font-size: 23px;
